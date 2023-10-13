@@ -1,0 +1,13 @@
+[package]
+name = "merkle"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sha2 = "0.10.7"
+clap = { version = "4.4.5", features = ["derive"] }
+serde = { version = "1.0.188", features = ["derive"] }
+serde_yaml = "0.9.25"
+base64 = "0.21.4"
